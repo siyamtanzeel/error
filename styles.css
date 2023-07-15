@@ -35,7 +35,7 @@ section{
 button{
     color: white;
     background: rgb(48, 48, 48);
-    width:60%;
+    max-width: max-content;
     padding: 1rem 2rem;
 }
 img{
@@ -45,4 +45,8 @@ img{
 .error-header{
     font-size: 1.3rem;
     font-weight: 700;
+}
+
+@media screen and (min-width:768px){
+
 }
